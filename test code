@@ -1,0 +1,22 @@
+; Code Snippet 1: Addition
+Assume memory locations for operands and result:
+; Memory location 0x10: Operand1
+; Memory location 0x20: Operand2
+; Memory location 0x30: Result
+; Load operand1 into ACC (Accumulator)
+LOAD 0x10
+; Add operand2 to ACC
+ADD 0x20
+; Store the result back to memory
+STORE 0x30
+; Code Snippet 2: Product of Two Numbers
+Assume memory locations for operands and result:
+; Memory location 0x80: Operand1
+; Memory location 0x81: Operand2
+; Memory location 0x90: Result
+; Load the first operand into ACC
+LOAD 0x80
+; Multiply ACC by the second operand
+MUL 0x81
+; Store the result back to memory
+STORE 0x90
